@@ -1,0 +1,10 @@
+{
+	"passwordSecret": "passwordSecret-analysis",
+	"tokenSecret": "tokenSecret-analysis",
+	"tokenExpiresIn": 7200,
+	"passwordErrorLimit": 6,
+	"passwordErrorRetryTime": 3600,
+	"app-plus": {
+		"tokenExpiresIn": 2592000
+	}
+}

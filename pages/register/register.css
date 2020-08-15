@@ -1,0 +1,172 @@
+page,.content{
+	width: 100%;
+	height: 100%;
+	background-color: #F7F7F7;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	box-shadow: 0 -5rpx 18rpx 4rpx rgba(0,0,0,.1) inset;
+}
+
+.title{
+	width: 375rpx;
+	height: 100rpx;
+	border-radius: 40rpx 0;
+	background-color: #91d5ff;
+	font-size: 60rpx;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 4rpx;
+	font-weight: 700;
+	margin: 20rpx 0;
+}
+
+.form{
+	width: calc(100% - 80rpx);
+	height: calc(100% - 120rpx);
+}
+
+.usernameInputerLabel{
+	
+	background-color: #ff8a80;
+}
+
+.passwordInputerLabel{
+	border-radius: 20rpx 20rpx 0 20rpx;
+	background-color: #A381BA;
+}
+
+.againInputerLabel{
+	background-color: #5E90B8;
+}
+
+.nicknameInputerLabel{
+	background-color: #80cbc4;
+}
+
+.genderCheckerLabel{
+	background-color: #919191;
+}
+
+.genderCheckerComponentGroup{
+	width: 400rpx;
+	height: 100%;
+	font-size: 28rpx;
+	color: #333333;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.genderCheckerComponentGroup>view{
+	margin-right: 20rpx;
+}
+
+.genderCheckerComponentGroup radio{
+	transform: scale(0.8);
+}
+
+.mobileInputerLabel{
+	background-color: #ffbb96;
+}
+
+.emailInputerLabel{
+	background-color: #78909c;
+}
+
+.usernameInputerLabel,.passwordInputerLabel,.againInputerLabel,.nicknameInputerLabel,.genderCheckerLabel,.mobileInputerLabel,.emailInputerLabel{
+	border-radius: 20rpx 20rpx 0 20rpx;
+	width: 190rpx;
+	justify-content: center;
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 36rpx;
+	letter-spacing: 2rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.usernameInputerComponent,.passwordInputerComponent,.againInputerComponent,.nicknameInputerComponent,.mobileInputerComponent,.emailInputerComponent{
+	width: 400rpx;
+	box-shadow: 0 0 10rpx 2rpx rgba(0,0,0,.1);
+	text-indent: 1em;
+	color: #333333;
+	border-radius: 10rpx;
+	background-color: #FFFFFF;
+}
+
+.usernameInputerLabel,.usernameInputerComponent,.passwordInputerLabel,.passwordInputerComponent,.againInputerLabel,.againInputerComponent,.nicknameInputerLabel,.nicknameInputerComponent,.genderCheckerLabel,.mobileInputerLabel,.mobileInputerComponent,.emailInputerLabel,.emailInputerComponent{
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.avatarChecker{
+	width: 100%;
+	height: 670.4rpx;
+	border-radius: 10rpx;
+	background-color: #eaeaea;
+	color: #919191;
+	font-weight: 700;
+	font-size: 700rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20rpx;
+}
+
+.usernameInputer,.passwordInputer,.againInpter,.nicknameInputer,.genderChecker,.mobileInpter,.emailInputer{
+	width: 100%;
+	height: 90rpx;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 20rpx;
+}
+
+.buttonArea{
+	width: 100%;
+	height: 80rpx;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.buttonArea>view{
+	height: 100%;
+	width: 200rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10rpx;
+}
+
+.submitBtn{
+	background-color: #ff7875;
+}
+
+.resetBtn{
+	background-color: #5E90B8;
+}
+
+/* .usernameInputer,.passwordInputer,.againInpter,.nicknameInputer,.genderChecker,.mobileInpter,.emailInputer,.avatarChecker{
+	margin-bottom: 20rpx;
+}
+ */
